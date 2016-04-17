@@ -27,7 +27,7 @@ window.onload = function() {
       // Error Callback
       function(err) {
         // Log the error to the console.
-        console.log('The following error occurred when trying to use getUserMedia: ' + err);
+        alert('The following error occurred when trying to use getUserMedia: ' + err);
       }
     );
 
