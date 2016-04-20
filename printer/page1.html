@@ -6,14 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/custom.css">
+
+    <style>
+      .row {
+        position: relative;
+      }
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      #spot-1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: black;
+      }
+    </style>
   </head>
+
+
 
   <body>
     <div class="container-fluid">
       <div class="row">
-      <a href="page2.html">
-        <img src="../images/printer/page1.png"></div>
-      </a>
+        <img src="../images/printer/page1.png"/>
+        <a id="spot-1" href="page2.html" />
       </div>
     </div>
 
