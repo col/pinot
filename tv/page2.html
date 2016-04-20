@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register Warranty</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+
+    <style>
+      body {
+        position: relative;
+      }
+      #spot {
+        position: absolute;
+        top: 48%;
+        left: 5%;
+        width: 90%;
+        height: 8%;
+      }
+      #spot-back {
+        position: absolute;
+        top: 4%;
+        left: 0;
+        width: 15%;
+        height: 9%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <img src="../images/tv/page2.png"/>
+        <a id="spot" href="page3.html" />
+        <a id="spot-back" href="page1.html" />
+      </div>
+    </div>
+
+    <script>
+      if(navigator.userAgent.match(/Android/i)){
+        window.scrollTo(0,1);
+      }
+    </script>
+  </body>
+</html>
