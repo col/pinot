@@ -6,14 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/custom.css">
+
+    <style>
+      body {
+        position: relative;
+      }
+      #spot-pic {
+        position: absolute;
+        bottom: 0;
+        left: 5%;
+        width: 90%;
+        height: 65%;
+      }
+      #spot-skip {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40%;
+        height: 10%;
+      }
+    </style>
   </head>
 
   <body>
     <div class="container-fluid">
       <div class="row">
-      <a href="page4.html">
         <img src="../images/printer/page3.png"></div>
-      </a>
+        <a id="spot-pic" href="page4.html" />
+        <a id="spot-skip" href="page6.html" />
       </div>
     </div>
 
